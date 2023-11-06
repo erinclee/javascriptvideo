@@ -14,6 +14,7 @@ window.addEventListener("load", function() {
 
 document.addEventListener("DOMContentLoaded", function() {
 	document.querySelector("#play").addEventListener("click", function() {
+		video.play();
 	});
 	document.querySelector("#pause").addEventListener("click", function() {
 		video.pause();
@@ -22,6 +23,4 @@ document.addEventListener("DOMContentLoaded", function() {
 		video.muted = !video.muted;
 	});
 });
-
-
 
